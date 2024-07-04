@@ -11,9 +11,10 @@ export default function Navbar() {
     { href: 'contact', text: 'Contact' },
   ]
 
+  // Website name/logo on the left - links on the right
   return (
     <>
-      <nav className="flex justify-between pt-4 text-2xl">
+      <nav className="flex justify-between pt-6 text-2xl">
         <h1 className="ps-7">Website Name</h1>
         <ul className="flex gap-5 pe-7">
           {navLinks.map((link, index) => (
